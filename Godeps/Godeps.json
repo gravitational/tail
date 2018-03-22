@@ -1,15 +1,23 @@
 {
-	"ImportPath": "github.com/hpcloud/tail",
-	"GoVersion": "go1.5.1",
+	"ImportPath": "github.com/gravitational/tail",
+	"GoVersion": "go1.9",
+	"GodepVersion": "v79",
+	"Packages": [
+		"./..."
+	],
 	"Deps": [
 		{
-			"ImportPath": "gopkg.in/fsnotify.v1",
-			"Comment": "v1.2.1",
-			"Rev": "7be54206639f256967dd82fa767397ba5f8f48f5"
+			"ImportPath": "github.com/fsnotify/fsnotify",
+			"Comment": "v1.4.7",
+			"Rev": "c2828203cd70a50dcccfb2761f8b1f8ceef9a8e9"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "2d6f6f883a06fc0d5f4b14a81e4c28705ea64c15"
 		},
 		{
 			"ImportPath": "gopkg.in/tomb.v1",
-			"Rev": "c131134a1947e9afd9cecfe11f4c6dff0732ae58"
+			"Rev": "dd632973f1e7218eb1089048e0798ec9ae7dceb8"
 		}
 	]
 }
